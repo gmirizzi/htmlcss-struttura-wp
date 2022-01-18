@@ -39,12 +39,6 @@ main div:first-child {
     margin-bottom: 15px;
 }
 
-#maincontainer::after {
-    content: '';
-    display: table;
-    clear:both;
-}
-
 #center {
     width:calc(100% - 15% * 2 - 30px);
     margin: 0 15px;
