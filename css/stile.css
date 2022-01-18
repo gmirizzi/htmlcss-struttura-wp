@@ -6,7 +6,7 @@
 
 #container {
     width: 80%;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 #container > header {
@@ -36,6 +36,7 @@ main div:first-child {
 
 #maincontainer > * {
     background-color: skyblue;
+    margin-bottom: 15px;
 }
 
 #maincontainer::after {
@@ -45,9 +46,16 @@ main div:first-child {
 }
 
 #center {
-    width:calc(100% - 15% * 2 - 30px)
+    width:calc(100% - 15% * 2 - 30px);
+    margin: 0 15px;
 }
 
 .side {
     width: 15%;
+}
+
+footer {
+    height: 30px;
+    background-color: purple;
+    margin-top: 5px;
 }
