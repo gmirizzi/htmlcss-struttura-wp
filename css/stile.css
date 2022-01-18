@@ -13,3 +13,41 @@
     height: 100px;
     background-color: violet;
 }
+
+main div:first-child {
+    height: 400px;
+    background-color: khaki;
+    margin: 15px auto;
+}
+
+#maincontainer {
+    height: 420px;
+    background-color: dodgerblue;
+}
+
+#maincontainer header {
+    height: 15%;
+}
+
+#maincontainer div {
+    height: calc(85% - 15px *2);
+    float: left;
+}
+
+#maincontainer > * {
+    background-color: skyblue;
+}
+
+#maincontainer::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+#center {
+    width:calc(100% - 15% * 2 - 30px)
+}
+
+.side {
+    width: 15%;
+}
